@@ -16,7 +16,7 @@
     "symbols",
     "outline"
   ],
-  "repository": "https://github.com/mehcode/atom-symbol-plus",
+  "repository": "https://github.com/mehcode/atom-symbols-plus",
   "license": "MIT",
   "engines": {
     "atom": ">=1.5.0 <2.0.0"
