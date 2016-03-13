@@ -3,15 +3,15 @@
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
 @import "ui-variables";
+@import "syntax-variables";
 
-.symbol-finder .item {
-  height: 3.591rem;
-  line-height: normal !important;
+.symbol-finder .one-line {
   padding: 0 !important;
+  height: 3.591rem;
 }
 
-.symbol-finder .item-row {
-  display: flex;
+.symbol-finder .primary-line {
+  display: flex !important;
   height: 100%;
   align-items: stretch;
 
@@ -22,19 +22,24 @@
   }
 
   .icon {
+    width: 2em;
     width: 3.591rem;
-    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 10px;
+  }
+
+  .icon-letter {
+    position: relative;
+    top: -0.1em;
+    font-size: 1.4em;
   }
 
   .symbol-name {
     flex: 1;
-    text-align: left;
     justify-content: flex-start;
-    padding-left: 15px;
-    padding-right: 15px;
+    display: flex;
   }
 
   .symbol-position {
