@@ -6,3 +6,12 @@
 
 '.platform-linux atom-workspace atom-text-editor':
   'ctrl-r': 'symbols-plus:toggle-file-symbols'
+
+'.platform-darwin atom-workspace':
+  'cmd-shift-r': 'symbols-plus:toggle-project-symbols'
+
+'.platform-win32 atom-workspace':
+  'ctrl-shift-r': 'symbols-plus:toggle-project-symbols'
+
+'.platform-linux atom-workspace':
+  'ctrl-shift-r': 'symbols-plus:toggle-project-symbols'
